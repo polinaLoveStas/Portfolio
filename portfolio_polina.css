@@ -1,0 +1,214 @@
+body{
+    background-image: url(https://celes.club/uploads/posts/2022-05/1653409742_5-celes-club-p-beskonechnii-fon-dlya-saita-krasivie-5.jpg);
+    color: #FFFFFF;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 97.5vh;
+}
+.header_text{
+    max-width: 300px;
+}
+.hero-content h1{
+    font-size: 40px;
+}
+.header_text p{
+    font-size: 25px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    animation: typing 4s steps(60, end);
+}
+.header_text p:nth-child(2){
+    animation: typing-2 8s steps(60, end);
+}
+@keyframes typing{
+    from {width: 0;}
+}
+@keyframes typing-2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{width: 100;}
+}
+
+.hero-content{
+    text-align: center;
+    max-width: 300px;
+    padding: 65px;
+    background: rgba(255, 255, 255, 0.4);
+    outline: 10px double #FFFFFF;
+    margin: auto;
+    transform: translateY(50%);
+}
+
+
+
+#about{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_item-left{
+    width: 40%;
+
+}
+.about_item-left img{
+    height: 100%;
+    width: 70%;
+}
+.about_item-right{
+    width: 40%;
+}
+.inright{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+
+
+.work{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.leftwork{
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    text-align: center;
+}
+.rightwork{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.leftwork h1{
+    text-align: center;
+}
+
+@media (max-width: 480px){
+    .rightwork img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (max-width: 767px){
+    .rightwork img{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .rightwork img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .rightwork img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (min-width: 1200px){
+    .rightwork img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+
+
+
+
+.project{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+.right{
+    width: 50%;
+    text-align: center;
+  
+}
+.left h3{
+    text-align: center;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.right img{
+    opacity: 0.6;
+    padding: 20px;
+}
+img:hover{
+   opacity: 1;
+}
+@media (min-width: 480px) and (max-width: 1600px){
+    .project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right img{
+        width: 40%;
+        height: 250px;
+    }
+    .left{
+        width: 60%;
+    }
+    .right{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1601px){
+    .project{
+        display: flex;
+      
+    }
+    .right img{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+
+
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer a{
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: 2px solid rgb(56, 50, 50);
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+
+
+
